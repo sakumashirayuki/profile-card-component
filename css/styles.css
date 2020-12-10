@@ -1,0 +1,30 @@
+/********************************TAG selection*********************************/
+body{
+  background: no-repeat left -250px top -489px url(../images/bg-pattern-top.svg),
+              no-repeat right -190px top 419px url(../images/bg-pattern-bottom.svg),
+              hsl(185, 75%, 39%);
+  text-align: center;
+}
+img{
+  background-color: white;
+  border:5px solid white;
+  border-radius: 53px;
+}
+table{
+  width:85%;
+  margin:10px auto 12px;
+  table-layout: fixed;
+}
+td{
+  width:30%;
+}
+/*******************************CLASS selection********************************/
+.card-container{
+  margin:170px auto;
+  width: 350px;
+  background: no-repeat top -12px center url(../images/bg-pattern-card.svg),white;
+}
+.content-container{
+  display: inline-block;
+  margin-top:80px;
+}
