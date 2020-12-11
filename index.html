@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=1440, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Profile card component</title>
 
@@ -14,6 +16,7 @@
     .attribution {
       font-size: 11px;
       text-align: center;
+      color:hsl(229, 23%, 23%);
     }
 
     .attribution a {
@@ -27,15 +30,15 @@
   <div class="card-container">
     <div class="content-container">
       <img src="./images/image-victor.jpg" alt="victor image">
-      <p class="profile">Victor Crest 26</p>
-      <p>London</p>
+      <p class="profile big-fonts">Victor Crest <span class="age">26</span></p>
+      <p class="location">London</p>
       <hr>
       <table>
         <tr>
           <td>
             <table>
               <tr>
-                <td>80K</td>
+                <td class="big-fonts">80K</td>
               </tr>
               <tr>
                 <td>Followers</td>
@@ -45,7 +48,7 @@
           <td>
             <table>
               <tr>
-                <td>803K</td>
+                <td class="big-fonts">803K</td>
               </tr>
               <tr>
                 <td>Likes</td>
@@ -55,7 +58,7 @@
           <td>
             <table>
               <tr>
-                <td>1.4K</td>
+                <td class="big-fonts">1.4K</td>
               </tr>
               <tr>
                 <td>Photos</td>

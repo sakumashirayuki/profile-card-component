@@ -4,11 +4,17 @@ body{
               no-repeat right -190px top 419px url(../images/bg-pattern-bottom.svg),
               hsl(185, 75%, 39%);
   text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color:hsl(0, 0%, 59%);
 }
 img{
   background-color: white;
   border:5px solid white;
   border-radius: 53px;
+}
+hr{
+  border-style: solid none none;
+  border-color: hsl(159, 4%, 91%);
 }
 table{
   width:85%;
@@ -23,8 +29,21 @@ td{
   margin:170px auto;
   width: 350px;
   background: no-repeat top -12px center url(../images/bg-pattern-card.svg),white;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 10px rgba(0, 0, 0, 0.19);
 }
 .content-container{
   display: inline-block;
   margin-top:80px;
+}
+.big-fonts{
+  font-size: 18px;
+  font-weight: 700;
+  color:hsl(229, 23%, 23%);
+}
+.age{
+  color: hsl(227, 10%, 46%);
+}
+.location{
+  margin-bottom: 30px;
 }
